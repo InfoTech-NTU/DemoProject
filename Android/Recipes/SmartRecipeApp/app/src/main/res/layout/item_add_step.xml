@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="8dp"
+    android:gravity="top">
+    <TextView
+        android:id="@+id/tvStepIndex"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF5252"/>
+
+    <EditText
+        android:id="@+id/edtStepContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:background="@drawable/bg_rounded_pink"
+        android:hint="Mô tả bước làm..."
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine|textCapSentences"
+        />
+
+    <ImageButton
+        android:id="@+id/btnStepRemove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_delete"
+        android:background="?attr/selectableItemBackground"
+        android:tint="#F44336"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

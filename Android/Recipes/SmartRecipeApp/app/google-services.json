@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "336456372324",
+    "project_id": "smartrecipeapp-4b22d",
+    "storage_bucket": "smartrecipeapp-4b22d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336456372324:android:83be16e00e4abdd34e8f71",
+        "android_client_info": {
+          "package_name": "ntu.nguyentruong.smartrecipeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-BRV0-AmosdNQr8ME6IL0l-1R0rHQKMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

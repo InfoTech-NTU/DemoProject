@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/check"
+        app:tint="#FF5252" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thành công!"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn đã đăng kí thành công"
+        android:fontFamily="@font/poppins_medium"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Go To Login"
+        app:cornerRadius="25dp"
+        app:backgroundTint="#FF5252"
+        android:textStyle="bold"/>
+
+</LinearLayout>
